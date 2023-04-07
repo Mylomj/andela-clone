@@ -334,3 +334,50 @@ padding: 10px;
   display: flex;
   gap: 10px;
 }
+.cardwrap{
+  place-content: center;
+}
+.card2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+ /* padding-top:80px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 80px;*/
+  gap: 25px;
+  place-content: center;
+  border: 1px dashed black;
+  width: 50em;
+  
+  
+}
+.card_5{
+  grid-column: span 2;
+  background-color: #ebe0fe;
+  height: 15em;
+  width:23em ;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+}
+.card_5:nth-last-child(1):nth-child(odd){
+  grid-column: 2/span 2;
+}
+.section_7{
+  background-color: lightgray;
+  height: 30em;
+}
+.tab{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: auto;
+  gap: 15px;
+}
+.tabs{
+  width: 15em;
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 20px;
+  
+}
