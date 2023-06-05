@@ -27,6 +27,7 @@ header{
 footer{
   border: 1px solid gray;
   height: 100vh;
+  font: 12px Inter, Sans-serif;
 }
 
 header img{
@@ -47,6 +48,7 @@ header nav{
 header nav a{
   display:inline;
   margin:20px ;
+  font: 14px Inter,sans-serif;
   
 }
 header nav a:nth-child(3){
@@ -152,9 +154,12 @@ header section button{
   
   
 }
+.sect h1{
+  font: 52px Inria Serif,Garamond,Serif;
+}
 .sect p{
   top: 20px;
-  font-size: 1.5em;
+  font: 18px Inter, Sans-serif;
   position: relative;
   top: 25px;
 }
@@ -209,9 +214,9 @@ header section button{
 }
 .info p{
   color: #fff;
-  font-family:inter, sans-sarif;
   top: 1.2em;
-  font-size:2em;
+  font: 32px Inria Serif,Garamond,serif;
+  
 }
 #section_2{
   border: 1px solid black;
@@ -221,6 +226,7 @@ header section button{
 #section_2 h3{
 text-align: center;
 padding: 10px;
+font: 32px Inria Serif,Garamond,Serif;
 
 }
 .logos{
@@ -258,6 +264,13 @@ padding: 10px;
 }
 .words h1{
   margin-bottom: 20px;
+  font: 40px Inria Serif,Garamond,Serif;
+}
+.words h5{
+  font: 16px Inter,Sans-serif;
+}
+.words p{
+  font: 18px Inter , Sans-serif;
 }
 .section_3 img{
   border: 1px dashed grey;
@@ -294,7 +307,15 @@ padding: 10px;
 }
 .section_4 ul{
   margin-top: 20px;
+  font: 18px Inter, Sans-serif;
 }
+.section_4 h1{
+  font: 40px Inria Serif, Garamond, Serif;
+}
+.section_4 h4{
+  font: 16px Inter, Sans-serif;
+}
+
 .section_4 button{
   width: 15em;
   border-radius: 35px;
@@ -304,13 +325,67 @@ padding: 10px;
   margin-top: 20px;
 }
 .section_5{
-  background: url(../pictures/section-bg-image.jpeg) repeat fixed 100% ;
-  height: 80vh;
+ /* background: url(../pictures/section-bg-image.jpeg) repeat fixed 100% ;*/
+  height: 90vh;
   color: #fff;
+  background-image: url(../pictures/section-bg-image.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   
+}
+.section_5note{
+  padding-top: 10em;
+  padding-left: 20px;
+  
+}
+.section_5note h1{
+  font: 40px Inria Serif, Garamond, Serif;
+  padding-bottom: 20px;
+}
+.section_5note p{
+  padding-bottom: 20px;
+  font: 18px Inter, Sans-serif;
+}
+.section_5note button{
+  /*width: 20em;
+  border-radius: 35px;
+  background-color:#56c870;
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  color: #173b3f;*/
+  border: 1px solid #56c870;
+  background-color: #56c870;
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px;
+  color: #173b3f;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  
+  
+}
+.section_5note h2{
+  padding-top: 10px;
+  font: 18px Inter, Sans-serif;
 }
 .section_6 h1{
   text-align: center;
+  font: 40px Inria Serif, Garamond, Serif;
+}
+.another_note{
+  border: 1px black dashed;
+  text-align: center;
+  padding: 20px;
+}
+.another_note h3{
+  padding-top: 20px;
+  font: 40px Inria Serif,Garamond,Serif;
+}
+.another_note p{
+  font: 18px Inter ,sans-serif;
 }
 .card{
   display: inline-flex;
@@ -335,7 +410,9 @@ padding: 10px;
   gap: 10px;
 }
 .cardwrap{
-  place-content: center;
+  height: 50em;
+  border: 1px solid black;
+
 }
 .card2{
   display: grid;
@@ -349,6 +426,10 @@ padding: 10px;
   place-content: center;
   border: 1px dashed black;
   width: 50em;
+  position: relative;
+  left: 15em;
+  padding-top: 20px;
+  
   
   
 }
@@ -364,9 +445,59 @@ padding: 10px;
 .card_5:nth-last-child(1):nth-child(odd){
   grid-column: 2/span 2;
 }
+.card_5 h1{
+  font: 48px inter, sans-serif;
+}
+.card_5 p{
+  font: 18px Inria, serif,Garamond;
+}
 .section_7{
   background-color: lightgray;
   height: 30em;
+
+}
+.section_7note{
+  text-align: center;
+}
+.section_7note h3{
+  padding-top: 20px;
+  font: 16px Inter, Sans-serif;
+}
+.section_7note h2{
+  font-size: 40px;
+  padding-bottom: 20px;
+  font: 40px Inria serif, Garamond,serif;
+
+}
+
+.butts{
+  text-align: center;
+  padding: 20px;
+  
+}
+.butts button{
+  width: 15em;
+  padding:25px;
+  border-radius: 35px;
+  background-color:#56c870;
+  position: relative;
+  margin-right:25px;
+}
+#num1{
+  background-color:#fff;
+}
+.note{
+  border: 1px black dashed;
+  text-align: center;
+  padding: 20px;
+}
+.note h2{
+  font: 40px inria, serif, Garamond, serif;
+}
+.note p{
+  padding: 20px;
+  
+  font: 18px Inter, sans-serif;
 }
 .tab{
   display: grid;
@@ -379,5 +510,15 @@ padding: 10px;
   background-color: #fff;
   padding: 15px 25px;
   border-radius: 20px;
+  font: 20px Inter, sans-serif;
   
+}
+footer{
+  border: 1px solid gray;
+  height: 100vh;
+  background-color:#173b3f;
+  display: flex;
+  list-style: none;
+  gap: 3em;
+  color: #fff;
 }
